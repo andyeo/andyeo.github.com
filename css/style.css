@@ -1,0 +1,92 @@
+h1  { /* my bio header */
+	border-style: solid;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	background-color:#856adc;
+		}
+li  { /* controls my list boldness */
+	font-weight:bold;
+		}	
+body  { /* picture for my background */
+	background-image: url(http://www.kubipet.com/data/out/78/iwp781039703-gradient-wallpapers.jpg);
+}
+img  { /* controls my profile picutre */
+	float: left;
+	margin:0 0 10px 10px;
+}
+.padding  { /* padding for my bio summary */
+	padding-top: 0px;
+	padding-right: 33%;
+	box-sizing: content-box;
+}
+.clearfix { /* command to make it asthetic */
+	overflow: auto;
+}
+p  { /* for my bio paragap to postion it */
+	background-color: #856adc;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	text-indent: 50px;
+    }
+.bottomleft  { /* fixes the postion of my list to where I wanted it */
+	position: right;
+            }   
+.menupostion  { /* fixes postion for my menu */
+	color: #e35048;
+	font-size: 30px;
+	float: right;
+	position: absolute;
+	top: 68px;
+	right: 12px;
+}
+a  { /* some color stuff for menu */
+	color:#e35048;
+	font-weight: bold;
+}
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { /* fixing some header issues */
+   position: absolute; 
+   top: 200px; 
+   left: 10px; 
+   width: 100%; 
+}
+h2 span { /* fixing the column */
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+* {
+    box-sizing: border-box;
+}
+
+.contactbody {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 60px;
+}
+h4  {
+	font-weight: bolder;
+	font-size: 20px;
+	padding-left: 10px;
+}
+h3  {
+	padding-left: 10px;
+}
+
+
